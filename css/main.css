@@ -115,6 +115,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -127,6 +129,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -185,6 +188,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background: #3a3a3a; 
   width: 100%;
   margin:10px 0 20px 0;
   height: 1px;
@@ -264,10 +268,6 @@ footer .copyright {
   margin: 20px 0;
   
 }
-
-
-
-
 
 /* ---- Mobile Styles Homepage -----*/
 
@@ -624,7 +624,7 @@ input[type=button] {
 
 
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .features article {
@@ -657,7 +657,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-  width: 65%;
+  width: 75%;
   margin: 0;
 }
 
@@ -734,12 +734,10 @@ footer .copyright {
 
 /*-------FAQ Page ---------*/
 
-header {
-  padding: 15px 0;
-}
-
 .faq .content-wrapper {
   justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
 
 }
 
