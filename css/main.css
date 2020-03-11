@@ -644,7 +644,7 @@ input[type=button] {
 
 .reviews h3 {
   width: 65%;
-  margin: 100px 0;
+  margin: 0;
 }
 
 /* Footer */
@@ -679,6 +679,10 @@ footer .copyright {
 }
 
 /*-------About Page -------*/
+
+ .map figure {
+    padding-bottom: 45.5%;
+  }
 
 .mission-content {
   display: flex;
@@ -823,6 +827,10 @@ footer h4 {
 
 
 /*********** ABOUT PAGE *****************/
+
+ .map figure {
+    padding-bottom: 37.5%;
+  }
 
 .mission h2,
 .contact-section .content-wrapper h2 {
